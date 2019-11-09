@@ -148,3 +148,34 @@
 }
 
 /* ---------- */
+
+/* ## Watch page */
+.htstr .master-container .watch-area .detail-area .container h1 {
+  color: #fff;
+}
+
+.htstr .master-container .watch-area .detail-area .container .meta-wrap .episode-divider,
+.htstr .master-container .watch-area .detail-area .container .meta-wrap .meta-deta {
+  color: #aaa;
+}
+
+.htstr .meta-wrap .description {
+  color: #aaa;
+}
+
+.htstr .meta-wrap .click-icon .click-icon-wrapper .icon-title {
+  color: #aaa;
+}
+
+.htstr .master-container .watch-area .detail-area {
+  border-color: #444;
+}
+
+/* ---------- */
+
+/* ## Category page */
+.htstr .tray-wrapper .tray-carousel .container h2 {
+  color: #fff;
+}
+
+/* ---------- */
