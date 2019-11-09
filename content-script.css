@@ -53,6 +53,20 @@
   background-color: #252525;
 }
 
+/* ### subheader (sports) */
+.htstr .sub-header {
+  color: #fff;
+  background-color: #272727;
+}
+
+.htstr .sub-header .tab-link {
+  color: rgba(255, 255, 255, .7);
+}
+
+.htstr .sub-header .tab.active .tab-link {
+  color: #fff;
+}
+
 /* ### search */
 .htstr .search-container input {
   color: #fff;
@@ -223,3 +237,112 @@
 }
 
 /* ---------- */
+
+/* ## Sports details page */
+.htstr .si-scorepage-title {
+  color: #eee;
+}
+
+.htstr .si-team-section .si-team-name {
+  color: #eee;
+}
+
+.htstr .si-team-section .si-team-score {
+  color: #eee;
+}
+
+.htstr .si-team-section .si-team {
+  border-right-color: #444;
+}
+
+.htstr .si-team-section .si-match-result {
+  color: #bbb;
+}
+
+.htstr .si-topbatsmen-fullTeam {
+  color: #919191;
+}
+
+.htstr .si-live-score .si-table-td {
+  color: #bbb;
+}
+
+/* ### full scoreboard table */
+.htstr .si-full-scoreboard.active:before,
+.htstr .si-full-scoreboard:before {
+  background-color: #444;
+}
+
+.htstr .si-teams-innings {
+  border-bottom-color: #555;
+}
+
+.htstr .si-tab-container .si-tab li {
+  color: #919191;
+}
+
+.htstr .si-tab-container .si-tab li.active,
+.htstr .si-tab-container .si-tab li:hover {
+  color: #eee;
+}
+
+.htstr .si-playersquad .si-table-tr .si-table-th,
+.htstr .si-scorecard .si-table-tr .si-table-th {
+  border-bottom-color: #333;
+}
+
+.htstr .si-playersquad .si-table-td,
+.htstr .si-scorecard .si-table-td {
+  border-bottom-color: #333;
+}
+
+.htstr .si-scorecard .si-table-td span.si-player-name {
+  color: #bbb;
+}
+
+.htstr .si-scorecard .innings-batsmen .tbl-runs,
+.htstr .si-scorecard .innings-bowler .tbl-wicket {
+  color: #bbb;
+}
+
+.htstr .si-scorecard .si-extra-info {
+  border-bottom-color: #555;
+}
+
+.htstr .si-scorecard .si-extra-info span.si-score {
+  color: #bbb;
+}
+
+/* ---------- */
+
+/* ## Sports live score page */
+.htstr .match-list .list-holder .match-date {
+  color: #eee;
+}
+
+.htstr .base {
+  background-color: #222;
+}
+
+.htstr .base .match-name {
+  color: #ccc;
+}
+
+.htstr .base .team-info {
+  color: #ccc;
+}
+
+.htstr .base .team-footer {
+  color: #919191;
+}
+
+/* ---------- */
+
+/* ## Sports tournaments */
+.htstr .tournament-card .title {
+  color: #eee;
+}
+
+.htstr .tournament-card .meta-desc .subtitle {
+  color: #919191;
+}
