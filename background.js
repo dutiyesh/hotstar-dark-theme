@@ -26,4 +26,28 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     sendResponse({});
     return true;
   }
+
+  if (message.type === 'UPDATE_MODE') {
+    const { mode } = message.payload;
+
+    chrome.storage.sync.set({ hotstar_mode: mode }, () => {
+      const notifyMessage = {
+        type: 'NOTIFY_MODE_CHANGE',
+        payload: {
+          mode
+        }
+      };
+
+      chrome.tabs.query({ active: true, currentWindow: true }, tabs => {
+        const tab = tabs[0];
+
+        if (tab) {
+          chrome.tabs.sendMessage(tab.id, notifyMessage);
+        }
+      });
+    });
+
+    sendResponse({});
+    return true;
+  }
 });

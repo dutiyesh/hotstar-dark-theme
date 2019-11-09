@@ -11,7 +11,8 @@
     "activeTab"
   ],
   "browser_action": {
-    "default_title": "Hotstar"
+    "default_title": "Hotstar Dark Mode",
+    "default_popup": "popup.html"
   },
   "content_scripts": [
     {
