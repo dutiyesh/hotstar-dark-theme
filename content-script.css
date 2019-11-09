@@ -1,3 +1,101 @@
+/* ## Common */
+/* ### header */
+.htstr .header,
+.htstr .header.white-header {
+  background-color: #272727;
+}
+
+.htstr .nav-logo .brand-logo {
+  filter: invert(1);
+}
+
+.htstr .user-profile .signIn {
+  color: #fff;
+}
+
+/* ### navigation */
+.htstr .navigations ul li .nav-link {
+  color: #fff;
+}
+
+.htstr .navigations ul li .dropdown-container.active .nav-link {
+  color: #fff;
+}
+
+.htstr .navigations ul li .active-link,
+.htstr .navigations ul li .active-link:hover,
+.htstr .navigations ul li .dropdown-container.active .nav-link:hover {
+  color: #fff;
+}
+
+/* ### menu */
+.htstr .submenu-container {
+  background-color: #333;
+}
+
+.htstr .submenu-container .link-container a {
+  color: #a1a1a1;
+}
+
+.htstr .submenu-container .link-container:hover {
+  background-color: #252525;
+}
+
+.htstr .dropdown-container .sublink-container {
+  background-color: #333;
+}
+
+.htstr .dropdown-container .sublink-container .dropdown-link {
+  color: #a1a1a1;
+}
+
+.htstr .dropdown-container .sublink-container .dropdown-link:hover {
+  background-color: #252525;
+}
+
+/* ### search */
+.htstr .search-container input {
+  color: #fff;
+  background-color: #191919;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.htstr .search-container .result-holder {
+  background: #333;
+}
+
+.htstr .search-container .result-holder article {
+  background: #252525;
+  border-color: #242424;
+}
+
+.htstr .search-container .result-holder article .search-wrap {
+  color: #eee;
+}
+
+.htstr .search-container .result-holder article .search-wrap .meta-wrapper .subtitle {
+  color: #999;
+}
+
+.htstr .search-container .result-holder .more-result {
+  color: #aaa;
+  background-color: #262626;
+}
+
+/* ### footer */
+.htstr .footer {
+  background: #272727;
+}
+
+.htstr .footer .container .footer-right p {
+  color: #919191;
+}
+
+/* ---------- */
+
+/* ## Landing and Listing page */
+/* ### main container */
 .htstr .master-container,
 .htstr .master-container-inner {
   background-color: #191919;
@@ -23,3 +121,30 @@
 .htstr .tray-area .left-arrow:before {
   color: #fff;
 }
+
+/* ### no result */
+.htstr .tray-wrapper .tray-carousel .container .no-result-container .title {
+  color: #eee;
+}
+
+.htstr .tray-wrapper .tray-carousel .container .no-result-container .info {
+  color: #aaa;
+}
+
+/* ### main container loader */
+.htstr .masthead-loader .loader-left,
+.htstr .masthead-loader .loader-middle,
+.htstr .masthead-loader .loader-right {
+  background-color: #333;
+}
+
+.htstr .tray-loader .card {
+  background-color: #333;
+}
+
+/* ### article cards */
+.htstr article {
+  background: #333;
+}
+
+/* ---------- */
