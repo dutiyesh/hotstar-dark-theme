@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Hotstar Dark Mode",
+  "name": "Hotstar Dark Theme",
   "version": "0.1.0",
-  "description": "Dark Mode for Hotstar",
+  "description": "Dark Theme for Hotstar",
   "icons": {
     "128": "media/icon.png"
   },
@@ -11,7 +11,7 @@
     "activeTab"
   ],
   "browser_action": {
-    "default_title": "Hotstar Dark Mode",
+    "default_title": "Hotstar Dark Theme",
     "default_popup": "popup.html"
   },
   "content_scripts": [

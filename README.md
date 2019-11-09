@@ -1,13 +1,13 @@
-# Hotstar Dark Mode
+# Hotstar Dark Theme
 
-Dark Mode for Hotstar
+Dark Theme for Hotstar
 
 ## Preview
 
 <div align="center">
-  <img width="640" height="400" src="assets/image-1.jpg" alt="Hotstar Showcase Banner Dark Mode">
-  <img width="640" height="400" src="assets/image-2.jpg" alt="Hotstar Show Cards Dark Mode">
-  <img width="640" height="400" src="assets/image-3.jpg" alt="Hotstar Show Details Dark Mode">
+  <img width="640" height="400" src="assets/image-1.jpg" alt="Hotstar Showcase Banner Dark Theme">
+  <img width="640" height="400" src="assets/image-2.jpg" alt="Hotstar Show Cards Dark Theme">
+  <img width="640" height="400" src="assets/image-3.jpg" alt="Hotstar Show Details Dark Theme">
 </div>
 
 ## Color contrast
@@ -16,7 +16,7 @@ Web Content Accessibility Guidelines (WCAG) AA ✅
 
 ## License
 
-Hotstar Dark Mode is open source software [licensed as MIT](LICENSE).
+Hotstar Dark Theme is open source software [licensed as MIT](LICENSE).
 
 ---
 

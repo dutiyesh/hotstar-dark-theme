@@ -2,33 +2,33 @@ const app = document.getElementById('app');
 const switchButton = document.getElementById('switch');
 
 (() => {
-  chrome.storage.sync.get(['hotstar_mode'], result => {
-    const isDarkMode = result.hotstar_mode === 'DARK';
+  chrome.storage.sync.get(['hotstar_theme'], result => {
+    const isDarkTheme = result.hotstar_theme === 'DARK';
 
-    switchButton.checked = isDarkMode;
+    switchButton.checked = isDarkTheme;
 
-    if (isDarkMode) {
-      app.classList.add('is-dark-mode');
+    if (isDarkTheme) {
+      app.classList.add('is-dark-theme');
     } else {
-      app.classList.remove('is-dark-mode');
+      app.classList.remove('is-dark-theme');
     }
   })
 })();
 
 switchButton.addEventListener('change', event => {
-  const mode = event.target.checked ? 'DARK' : 'LIGHT';
+  const theme = event.target.checked ? 'DARK' : 'LIGHT';
 
   const updateMessage = {
-    type: 'UPDATE_MODE',
+    type: 'UPDATE_THEME',
     payload: {
-      mode
+      theme
     }
   }
 
-  if (mode === 'DARK') {
-    app.classList.add('is-dark-mode');
+  if (theme === 'DARK') {
+    app.classList.add('is-dark-theme');
   } else {
-    app.classList.remove('is-dark-mode');
+    app.classList.remove('is-dark-theme');
   }
 
   chrome.runtime.sendMessage(updateMessage);

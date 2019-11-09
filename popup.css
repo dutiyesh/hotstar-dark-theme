@@ -32,20 +32,20 @@ body {
   font-weight: 600;
 }
 
-.mode-image {
+.theme-image {
   width: 200px;
   height: 200px;
 }
 
-.mode-dark {
+.theme-dark {
   display: none;
 }
 
-.is-dark-mode .mode-light {
+.is-dark-theme .theme-light {
   display: none;
 }
 
-.is-dark-mode .mode-dark {
+.is-dark-theme .theme-dark {
   display: inline;
 }
 

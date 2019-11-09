@@ -1,21 +1,22 @@
 {
-  "name": "hotstar-dark-mode",
+  "name": "hotstar-dark-theme",
   "version": "0.1.0",
-  "description": "Dark Mode for Hotstar",
+  "description": "Dark Theme for Hotstar",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dutiyesh/hotstar-dark-mode.git"
+    "url": "https://github.com/dutiyesh/hotstar-dark-theme.git"
   },
   "author": {
     "name": "Dutiyesh Salunkhe",
     "email": "dutiyesh@gmail.com"
   },
-  "homepage": "https://github.com/dutiyesh/hotstar-dark-mode#readme",
+  "homepage": "https://github.com/dutiyesh/hotstar-dark-theme#readme",
   "bugs": {
-    "url": "https://github.com/dutiyesh/hotstar-dark-mode/issues"
+    "url": "https://github.com/dutiyesh/hotstar-dark-theme/issues"
   },
   "keywords": [
     "hotstar",
+    "dark-theme",
     "dark-mode",
     "chrome",
     "extension",

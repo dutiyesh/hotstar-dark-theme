@@ -1,10 +1,10 @@
-chrome.runtime.sendMessage({ type: 'REQUEST_MODE' });
+chrome.runtime.sendMessage({ type: 'REQUEST_THEME' });
 
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
-  if (message.type === 'RECEIVE_MODE' || message.type === 'NOTIFY_MODE_CHANGE') {
-    const { mode } = message.payload;
+  if (message.type === 'RECEIVE_THEME' || message.type === 'NOTIFY_THEME_CHANGE') {
+    const { theme } = message.payload;
 
-    if (mode === 'DARK') {
+    if (theme === 'DARK') {
       document.body.classList.add('htstr');
     } else {
       document.body.classList.remove('htstr');
