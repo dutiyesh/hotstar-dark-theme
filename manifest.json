@@ -6,6 +6,10 @@
   "icons": {
     "128": "media/icon.png"
   },
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
   "browser_action": {
     "default_title": "Hotstar"
   },
@@ -22,5 +26,11 @@
         "content-script.js"
       ]
     }
-  ]
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  }
 }
