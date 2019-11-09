@@ -3,6 +3,7 @@
 .htstr .header,
 .htstr .header.white-header {
   background-color: #272727;
+  transition-duration: 0ms;
 }
 
 .htstr .nav-logo .brand-logo {
