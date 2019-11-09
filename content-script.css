@@ -1,0 +1,25 @@
+.htstr .master-container,
+.htstr .master-container-inner {
+  background-color: #191919;
+  background-image: none;
+}
+
+.htstr .tray-area .tray-wrapper .tray-carousel .tray-title .tray-link {
+  color: #fff;
+}
+
+.htstr .trays-container:before {
+  background-image: linear-gradient(to right,rgba(238, 238, 238, 0), #191919 30px);
+}
+
+.htstr .trays-container:after {
+  background-image: linear-gradient(to left,rgba(238, 238, 238,0), #191919 30px);
+}
+
+.htstr .tray-area .right-arrow:before {
+  color: #fff;
+}
+
+.htstr .tray-area .left-arrow:before {
+  color: #fff;
+}

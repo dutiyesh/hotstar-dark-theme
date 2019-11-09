@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Hotstar Dark Mode",
+  "version": "0.1.0",
+  "description": "Dark Mode for Hotstar",
+  "icons": {
+    "128": "media/icon.png"
+  },
+  "browser_action": {
+    "default_title": "Hotstar"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.hotstar.com/*"
+      ],
+      "run_at": "document_end",
+      "css": [
+        "content-script.css"
+      ],
+      "js": [
+        "content-script.js"
+      ]
+    }
+  ]
+}
