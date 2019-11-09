@@ -179,3 +179,47 @@
 }
 
 /* ---------- */
+
+/* ## Watchlist */
+.htstr .my-watchlist-zero-state .zero-state-header {
+  color: #aaa;
+}
+
+/* ---------- */
+
+/* ## My Account */
+.htstr .my-account-page .profile .user-details .user-name {
+  color: #eee;
+}
+
+.htstr .my-account-page .profile .user-details .user-name-subtitle {
+  color: #aaa;
+}
+
+.htstr .my-account-page .account-card-container {
+  background-color: #222;
+}
+
+.htstr .active-subscriptions .membership-title {
+  color: #ddd;
+}
+
+.htstr .active-subscriptions .membership-desc {
+  color: #aaa;
+}
+
+.htstr .my-account-page .account-card-item + .account-card-item {
+  border-top-color: #444;
+}
+
+.htstr .active-subscriptions .membership-cancel-tile,
+.htstr .billing-info .billing-transactions-header,
+.htstr .security-info .sign-out-link {
+  color: #ddd;
+}
+
+.htstr .my-account-page .chevron::before {
+  color: #aaa;
+}
+
+/* ---------- */
