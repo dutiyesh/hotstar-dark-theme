@@ -2,6 +2,10 @@
 
 Dark Theme for Hotstar
 
+## Install
+
+[Chrome Extension](https://chrome.google.com/webstore/detail/hotstar-dark-theme/ilfapohajbnogiilnbbejjhfbbgbplel)
+
 ## Preview
 
 <div align="center">
