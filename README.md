@@ -18,6 +18,10 @@ Dark Theme for Hotstar
 
 Web Content Accessibility Guidelines (WCAG) AA ✅
 
+## Contributing
+
+Read our [contributing guide](CONTRIBUTING.md) to learn about our development process.
+
 ## License
 
 Hotstar Dark Theme is open source software [licensed as MIT](LICENSE).
