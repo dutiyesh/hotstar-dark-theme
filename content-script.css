@@ -231,10 +231,22 @@
 .htstr .billing-info .billing-transactions-header,
 .htstr .security-info .sign-out-link {
   color: #ddd;
+  background-color: transparent;
 }
 
 .htstr .my-account-page .chevron::before {
   color: #aaa;
+}
+
+/* ---------- */
+
+/* ## Cancel membership */
+.htstr .cancel-page .content-wrapper .container h1 {
+  color: #eee;
+}
+
+.htstr .cancel-page .content-wrapper .container p {
+  color: #919191;
 }
 
 /* ---------- */
@@ -337,6 +349,15 @@
   color: #919191;
 }
 
+.htstr .base .team-info .team-name.current,
+.htstr .base .team-info .team-score.current {
+  color: #ccc;
+}
+
+.htstr .base .team-footer.current {
+  color: #919191;
+}
+
 /* ---------- */
 
 /* ## Sports tournaments */
@@ -347,3 +368,5 @@
 .htstr .tournament-card .meta-desc .subtitle {
   color: #919191;
 }
+
+/* ---------- */
