@@ -1,6 +1,6 @@
-# Hotstar Dark Theme
+# Disney Plus Hotstar Dark Theme
 
-Dark Theme for Hotstar
+Dark Theme for Disney Plus Hotstar
 
 ## Install
 
@@ -9,9 +9,9 @@ Dark Theme for Hotstar
 ## Preview
 
 <div align="center">
-  <img width="640" height="400" src="assets/image-1.jpg" alt="Hotstar Showcase Banner Dark Theme">
-  <img width="640" height="400" src="assets/image-2.jpg" alt="Hotstar Show Cards Dark Theme">
-  <img width="640" height="400" src="assets/image-3.jpg" alt="Hotstar Show Details Dark Theme">
+  <img width="640" height="400" src="assets/image-1.jpg" alt="Disney Plus Hotstar Showcase Banner Dark Theme">
+  <img width="640" height="400" src="assets/image-2.jpg" alt="Disney Plus Hotstar Show Cards Dark Theme">
+  <img width="640" height="400" src="assets/image-3.jpg" alt="Disney Plus Hotstar Show Details Dark Theme">
 </div>
 
 ## Color contrast
@@ -24,7 +24,7 @@ Read our [contributing guide](CONTRIBUTING.md) to learn about our development pr
 
 ## License
 
-Hotstar Dark Theme is open source software [licensed as MIT](LICENSE).
+Disney Plus Hotstar Dark Theme is open source software [licensed as MIT](LICENSE).
 
 ---
 

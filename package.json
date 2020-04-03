@@ -1,7 +1,7 @@
 {
   "name": "hotstar-dark-theme",
   "version": "0.1.0",
-  "description": "Dark Theme for Hotstar",
+  "description": "Dark Theme for Disney Plus Hotstar",
   "repository": {
     "type": "git",
     "url": "https://github.com/dutiyesh/hotstar-dark-theme.git"
@@ -15,6 +15,9 @@
     "url": "https://github.com/dutiyesh/hotstar-dark-theme/issues"
   },
   "keywords": [
+    "disney",
+    "disney-plus",
+    "disney+",
     "hotstar",
     "dark-theme",
     "dark-mode",
