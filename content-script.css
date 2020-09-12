@@ -6,10 +6,6 @@
   transition-duration: 0ms;
 }
 
-.htstr .nav-logo .brand-logo {
-  filter: brightness(70);
-}
-
 .htstr .user-profile .signIn {
   color: #fff;
 }
@@ -27,10 +23,6 @@
 .htstr .navigations ul li .active-link:hover,
 .htstr .navigations ul li .dropdown-container.active .nav-link:hover {
   color: #fff;
-}
-
-.htstr .navigations ul li .new {
-  filter: brightness(5);
 }
 
 /* ### menu */
