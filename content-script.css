@@ -1,9 +1,10 @@
 /* ## Common */
 /* ### header */
-.htstr .header,
+.htstr .header.header,
 .htstr .header.white-header {
-  background-color: #272727;
+  background: linear-gradient(to bottom, #272727, #000000 300px);
   transition-duration: 0ms;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
 }
 
 .htstr .user-profile .signIn {
@@ -72,6 +73,10 @@
   padding-left: 5px;
 }
 
+.htstr .search-container input:focus {
+  border-bottom-color: #d2d2d2;
+}
+
 .htstr .search-container .result-holder {
   background: #333;
 }
@@ -133,6 +138,14 @@
   color: #fff;
 }
 
+.htstr .percentage {
+  background-color: #555;
+}
+
+.htstr .percentage .value {
+  background-color: #d2d2d2;
+}
+
 /* ### no result */
 .htstr .tray-wrapper .tray-carousel .container .no-result-container .title {
   color: #eee;
@@ -153,9 +166,22 @@
   background-color: #333;
 }
 
+/* ### masthead */
+.htstr .masthead-card {
+  background-color: #272727;
+}
+
+.htstr .masthead-card .image-gradient {
+  background: linear-gradient(to right, #272727, rgba(0,0,0,0));
+}
+
 /* ### article cards */
 .htstr article {
   background: #333;
+}
+
+.htstr article .details {
+  background-image: linear-gradient(to bottom, rgba(4,8,15,0), #272727, #272727);
 }
 
 /* ---------- */
@@ -180,6 +206,10 @@
 
 .htstr .master-container .watch-area .detail-area {
   border-color: #444;
+}
+
+.htstr .detail-page .lang-selection .audio-item.lang-selected {
+  background-color: #555;
 }
 
 /* ---------- */

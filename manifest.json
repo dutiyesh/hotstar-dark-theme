@@ -1,7 +1,7 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Hotstar Dark Theme",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Dark Theme for Hotstar",
   "icons": {
     "128": "media/icon.png"
@@ -10,7 +10,7 @@
     "storage",
     "activeTab"
   ],
-  "browser_action": {
+  "action": {
     "default_title": "Hotstar Dark Theme",
     "default_popup": "popup.html"
   },
@@ -29,9 +29,6 @@
     }
   ],
   "background": {
-    "scripts": [
-      "background.js"
-    ],
-    "persistent": false
+    "service_worker": "background.js"
   }
 }
